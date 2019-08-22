@@ -1,0 +1,47 @@
+{
+  "name": "hazofasho",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.tsx",
+  "dependencies": {
+    "@material-ui/core": "4.0.1",
+    "apollo-boost": "0.4.2",
+    "cheeseburger-menu": "0.0.13",
+    "graphql": "14.3.1",
+    "lodash-es": "4.17.11",
+    "lodash.debounce": "4.0.8",
+    "react": "16.8.4",
+    "react-apollo": "2.5.6",
+    "react-art": "16.8.6",
+    "react-bootstrap": "1.0.0-beta.8",
+    "react-dom": "16.8.4",
+    "react-hamburger-menu": "1.1.1",
+    "react-media": "1.9.2",
+    "react-native": "0.59.9",
+    "react-native-web": "0.11.4",
+    "react-resize-detector": "4.2.0",
+    "react-responsive": "6.1.2",
+    "react-responsive-modal": "4.0.1",
+    "react-scripts": "2.1.3",
+    "recyclerlistview": "2.0.1-alpha.1",
+    "reflexbox": "3.0.1"
+  },
+  "devDependencies": {
+    "@types/react": "16.8.8",
+    "@types/react-dom": "16.8.2",
+    "typescript": "3.3.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

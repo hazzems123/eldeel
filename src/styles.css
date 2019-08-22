@@ -1,0 +1,331 @@
+.App {
+  position: relative;
+  background: grey;
+  width: 100%;
+  height: 100%;
+}
+
+.topFold {
+  height: 100%;
+  width: 100%;
+}
+.Navbar {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  top: 5px;
+  height: 100px;
+}
+.topHalf {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  height: 50px;
+}
+.belowHalf {
+  top: 65px;
+  width: 100%;
+  position: absolute;
+}
+.belowHalfMini {
+  top: 50px;
+  width: 100%;
+  position: absolute;
+}
+
+.SearchWord {
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  left: 40px;
+  top: 5px;
+  font-family: Jacques Francois;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: 000000;
+}
+
+.SearchBox {
+  position: absolute;
+  width: 150px;
+  height: 80%;
+  left: 35px;
+  top: 5px;
+  background: #c4c4c4;
+}
+.fashLyst {
+  position: absolute;
+  font-family: Jacques Francois;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 33px;
+  color: #000000;
+}
+.hamButton {
+  position: absolute;
+  left: 10px;
+}
+.shoppingBag {
+  position: absolute;
+  right: 140px;
+}
+
+.navBarRight {
+  left: 40px;
+}
+.Favorites {
+  position: absolute;
+  right: 220px;
+}
+
+.login {
+  position: absolute;
+  right: 60px;
+  font-family: Jacques Francois;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.DropDownMenu {
+  position: relative;
+  width: 254px;
+  height: 616px;
+  background: #ffffff;
+}
+
+.Line {
+  position: relative;
+  top: 50px;
+  width: 100%;
+  border: 0.5px solid #b3a8a8;
+}
+.BelowCategories {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: Jacques Francois;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 26px;
+  color: #828282;
+}
+
+.Hamburger {
+  position: absolute;
+  top: 20px;
+  left: 5px;
+}
+
+.FashlystMini {
+  position: absolute;
+  font-family: Jacques Francois;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 33px;
+  color: #000000;
+}
+
+.NavbarMini {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  position: absolute;
+  width: 100%;
+  background: white;
+  height: 40px;
+  top: 10px;
+}
+
+.shoppingBagMini {
+  position: absolute;
+  right: 60px;
+}
+
+.FavoritesMini {
+  position: absolute;
+  right: 20px;
+}
+
+.DropDownCategories {
+  position: relative;
+  display: flex;
+  top: 50px;
+  justify-content: right;
+}
+
+.DropDownMenuCategories {
+  width: 700px;
+  left: 1px;
+}
+.DropDownArrow {
+  position: absolute;
+  right: 2px;
+  top: 13px;
+  border: none;
+  background: white;
+}
+.DropDownBox {
+  position: absolute;
+  width: 100%;
+  height: 25px;
+}
+.buttonHook {
+  top: 100px;
+}
+
+.DropDownList {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.DropDownListBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  background: white;
+}
+.DropDownListCategories {
+  position: absolute;
+  top: 50px;
+
+  width: 100%;
+}
+.DropDownListButton {
+  display: flex;
+  border: none;
+  font-family: Jacques Francois;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 20px;
+  color: #797373;
+  background: white;
+  padding: 20px;
+  width: 100%;
+
+  left: 10px;
+}
+.CancelButton {
+  background: white;
+  border: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  outline: none !important;
+  outline-offset: none !important;
+  color: #797373;
+}
+
+.input {
+  left: 20px;
+}
+
+.Card {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background:white
+  left: 5px;
+  bottom: 5px;
+  right: 5px;
+}
+
+.CardItemName {
+  position: absolute;
+  width: 82px;
+  height: 15px;
+  left: 5px;
+  bottom: 54px;
+
+  font-family: Jacques Francois;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+
+  color: #000000;
+}
+.CardCurrentPrice {
+  position: absolute;
+  width: 52px;
+  height: 13px;
+  left: 13px;
+  bottom: 34px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: green;
+}
+.CardLikesBox {
+  position: absolute;
+  width: 55px;
+  height: 26px;
+  right: 5px;
+  bottom: 36px;
+
+  border: 1px solid #b3a8a8;
+  box-sizing: border-box;
+}
+
+.CardLikesCounter {
+  position: absolute;
+  width: 28px;
+  height: 17px;
+
+  left: 25px;
+  top: 6px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #000000;
+}
+
+.CardMoreColors {
+  position: absolute;
+  width: 80px;
+  height: 32px;
+  right: 11px;
+  bottom: 91px;
+  background: rgba(0, 0, 0, 0.06);
+}
+.CardMoreColorsText {
+  position: absolute;
+  top: 10px;
+  left: 5px;
+  font-family: Jacques Francois;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+
+  color: #000000;
+}
+
+.Belowfold {
+  position: relative;
+  top: 660px;
+  width: 100%;
+  height: 100%;
+  left: 2px;
+}
