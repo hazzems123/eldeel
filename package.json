@@ -9,7 +9,7 @@
     "apollo-boost": "0.4.2",
     "cheeseburger-menu": "0.0.13",
     "graphql": "14.3.1",
-    "lodash-es": "4.17.11",
+    "lodash-es": "4.17.15",
     "lodash.debounce": "4.0.8",
     "react": "16.8.4",
     "react-apollo": "2.5.6",
